@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: shopping-eureka
+Implementation-Version: 1.0
+Built-By: caibin
+Implementation-Vendor-Id: com.cloud.shopping
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/shopping-mas
+ ter/shopping-eureka/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
