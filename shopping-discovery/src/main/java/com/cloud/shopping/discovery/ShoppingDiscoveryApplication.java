@@ -6,9 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * The class Paas cloud discovery application.
+ * 配置中心
+ * @author xiaocai
  *
- * @author paascloud.net@gmail.com
  */
 @SpringBootApplication
 @EnableConfigServer
