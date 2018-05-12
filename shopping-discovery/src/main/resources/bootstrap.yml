@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/binbin8223/paascloud-config-repo.git
+          uri: https://github.com/binbin8223/shopping-config.git
           username:
           password:
           search-paths: /*
@@ -16,6 +16,6 @@ spring:
 encrypt:
   key-store:
     location: classpath:/server.jks
-    password: paascloud-storepass
-    alias: paascloud-key-store
-    secret: paascloud-keypass
+    password: shopping-storepass
+    alias: shopping-key-store
+    secret: shopping-keypass

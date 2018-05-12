@@ -3,4 +3,4 @@ security:
     enabled: true
   user:
     name: admin
-    password: admin
+    password: '{cipher}AQAi4jTZE7pjPW7e5CE9jGMmiVZtztZg5JxfD/TdwQLmKei/zM0R3tOiISC9cxKNbsmxtDhvY7rRkNVDt3CHV+E7Ezv3SfDbt0BIdpaXb6wexL1xLRsKAPbQD46m7bA/XGOCxSmrVJADxELGLMc+T3s2YGkCYyt19nwgoxyxr+sRVs2HDxnml3MH3Mz4/m7dhxr1Q9t4vRUzmtpTHVTvr6by6tbGmgGXSjvw+7jiQ4+clKrqAuWJBfHboVoBklKzQP4kpHniYFvpGljGBkUcW3tgn2yqWnQ5BGKLqM04CMSK+XApZB5OggGNTke/O/Gur8ycWZP6IRaembUh/ueYRrkQFJ/cb9R0OMpqkA4ZeYnNCSv+zTYun+GgiNv5MVSHIcw='

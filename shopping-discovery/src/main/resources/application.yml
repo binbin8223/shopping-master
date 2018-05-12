@@ -7,10 +7,10 @@ spring:
     name: @pom.artifactId@
   boot:
     admin:
-      username: ${security.user.name:admin}
-      password: ${security.user.password:admin}
+      username: ${security.user.name}
+      password: ${security.user.password}
 info:
-  owner: paascloud.net@gmail.com
+  owner: 2623604881@qq.com
   version: @project.version@
 
 eureka:
@@ -20,12 +20,6 @@ eureka:
     instance:
       instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
 
-security: # 配置中心的用户名密码
-  basic:
-    enabled: ${security.basic.enabled:true}
-  user:
-    name: ${security.user.name:admin}
-    password: ${security.user.password:admin}
 logging:
   level.root: info
   path: logs/
