@@ -1,0 +1,65 @@
+server:
+  port: ${shopping.server.monitor.port:8010}
+spring:
+  application:
+    name: @pom.artifactId@
+  profiles:
+    active: @profileActive@
+  boot:
+    admin:
+      client:
+        metadata:
+          user:
+            name: ${security.user.name}
+            password: ${security.user.password}
+      monitor:
+        period: 60000
+      discovery:
+        enabled: true
+      notify:
+        mail:
+          to: 2623604881@qq.com
+          from: binbin8124@sina.com
+      turbine:
+        clusters: default
+        location: turbine
+      routes:
+        endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream,activiti
+  mail:
+    host: smtp.sina.com
+    username: ${shopping.mail.username}
+    password: ${shopping.mail.password}
+    port: 465
+    protocol: smtp
+    test-connection: true
+    default-encoding: UTF-8
+    properties:
+      mail:
+        debug: true
+        smtp:
+          auth: true
+          connectiontimeout: 10000
+          timeout: 10000
+          writetimeout: 10000
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+          starttls:
+            enable: true
+            required: true
+info:
+  owner: 2623604881@qq.com
+  version: @project.version@
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@shopping-eureka:8761/eureka/
+    instance:
+      instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+logging:
+  level.root: info
+  path: logs/
+  file: ${spring.application.name}.log

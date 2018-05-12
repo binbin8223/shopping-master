@@ -16,6 +16,7 @@
   <modules>
      <module>shopping-eureka</module>
     <module>shopping-discovery</module>
+    <module>shopping-monitor</module>
   </modules>
 
   <developers>

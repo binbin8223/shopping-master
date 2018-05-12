@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * The class Paas cloud eureka application.
- *
- * @author paascloud.net@gmail.com
+ *注册中心
  */
 @EnableEurekaServer
 @SpringBootApplication
