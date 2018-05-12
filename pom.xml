@@ -17,6 +17,8 @@
      <module>shopping-eureka</module>
     <module>shopping-discovery</module>
     <module>shopping-monitor</module>
+    <module>shopping-gateway</module>
+    <module>shopping-common</module>
   </modules>
 
   <developers>
@@ -110,7 +112,7 @@
         <version>${guava.version}</version>
       </dependency>
       <!-- paas cloud start -->
-     <!--  <dependency>
+      <dependency>
         <groupId>com.cloud.shopping.common</groupId>
         <artifactId>shopping-common-base</artifactId>
         <version>${shopping.version}</version>
@@ -134,7 +136,7 @@
         <groupId>com.cloud.shopping.common</groupId>
         <artifactId>shopping-security-app</artifactId>
         <version>${shopping.version}</version>
-      </dependency> -->
+      </dependency>
       <!-- paas cloud end -->
       <!-- swagger cloud start -->
       <dependency>

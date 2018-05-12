@@ -1,0 +1,13 @@
+spring:
+   cloud:
+    config:
+      uri: http://paascloud-discovery:8080/
+      username: admin
+      password: admin
+      profile: ${spring.profiles.active}
+      label: master
+      fail-fast: true
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - veth.*

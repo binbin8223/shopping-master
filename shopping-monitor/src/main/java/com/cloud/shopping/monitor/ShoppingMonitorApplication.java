@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * The class Paas cloud monitor application.
  *
- * @author paascloud.net@gmail.com
+ * 
  */
 @SpringBootApplication
 @EnableEurekaClient
