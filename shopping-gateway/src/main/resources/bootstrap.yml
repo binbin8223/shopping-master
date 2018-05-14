@@ -1,9 +1,9 @@
 spring:
    cloud:
     config:
-      uri: http://paascloud-discovery:8080/
+      uri: http://shopping-discovery:8080/
       username: admin
-      password: admin
+      password: admin123456
       profile: ${spring.profiles.active}
       label: master
       fail-fast: true

@@ -14,7 +14,7 @@
   </parent>
 
   <modules>
-     <module>shopping-eureka</module>
+    <module>shopping-eureka</module>
     <module>shopping-discovery</module>
     <module>shopping-monitor</module>
     <module>shopping-gateway</module>
@@ -130,11 +130,6 @@
       <dependency>
         <groupId>com.cloud.shopping.common</groupId>
         <artifactId>shopping-common-zk</artifactId>
-        <version>${shopping.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.cloud.shopping.common</groupId>
-        <artifactId>shopping-security-app</artifactId>
         <version>${shopping.version}</version>
       </dependency>
       <!-- paas cloud end -->

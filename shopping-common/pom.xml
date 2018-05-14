@@ -16,9 +16,6 @@
         <module>shopping-common-util</module>
         <module>shopping-common-config</module>
         <module>shopping-common-core</module>
-        <module>shopping-security-app</module>
-        <module>shopping-security-core</module>
-        <module>shopping-security-feign</module>
         <module>shopping-common-zk</module>
     </modules>
 
