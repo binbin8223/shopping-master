@@ -6,7 +6,7 @@ import com.shopping.page.PageUtil;
 /**
  * The class Page wrap mapper.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class PageWrapMapper {
 

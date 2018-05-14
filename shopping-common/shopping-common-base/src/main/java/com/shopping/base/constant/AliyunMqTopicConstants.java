@@ -14,7 +14,7 @@ import java.util.Set;
 /**
  * The class Aliyun mq topic constants.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class AliyunMqTopicConstants {
@@ -22,7 +22,7 @@ public class AliyunMqTopicConstants {
 	/**
 	 * The enum Uac mq topic enum.
 	 *
-	 * @author paascloud.net @gmail.com
+	 * @author shopping.net @gmail.com
 	 */
 	public enum MqTopicEnum {
 		/**
@@ -76,7 +76,7 @@ public class AliyunMqTopicConstants {
 	/**
 	 * The enum Uac mq tag enum.
 	 *
-	 * @author paascloud.net @gmail.com
+	 * @author shopping.net @gmail.com
 	 */
 	public enum MqTagEnum {
 
@@ -175,7 +175,7 @@ public class AliyunMqTopicConstants {
 	/**
 	 * The class Consumer topics.
 	 *
-	 * @author paascloud.net @gmail.com
+	 * @author shopping.net @gmail.com
 	 */
 	@NoArgsConstructor(access = AccessLevel.PRIVATE)
 	public static final class ConsumerTopics {
@@ -264,7 +264,7 @@ public class AliyunMqTopicConstants {
 	/**
 	 * The class Topic obj.
 	 *
-	 * @author paascloud.net @gmail.com
+	 * @author shopping.net @gmail.com
 	 */
 	static class TopicObj {
 

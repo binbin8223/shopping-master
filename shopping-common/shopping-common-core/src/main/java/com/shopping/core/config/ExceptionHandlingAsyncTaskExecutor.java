@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
 /**
  * The class Exception handling async task executor.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Slf4j
 public class ExceptionHandlingAsyncTaskExecutor implements AsyncTaskExecutor, InitializingBean, DisposableBean {

@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * The class Tree node.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Data
 public class TreeNode {

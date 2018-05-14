@@ -24,7 +24,7 @@ import java.net.UnknownHostException;
 /**
  * The class Request util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

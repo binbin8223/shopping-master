@@ -3,7 +3,7 @@ package com.shopping.base.exception;
 /**
  * The class Config exception.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class ConfigException extends RuntimeException {
 

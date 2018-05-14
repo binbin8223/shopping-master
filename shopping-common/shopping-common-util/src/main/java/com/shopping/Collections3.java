@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * The class Collections 3.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Collections3 {

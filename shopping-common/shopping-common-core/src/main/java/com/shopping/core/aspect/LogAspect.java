@@ -27,7 +27,7 @@ import java.util.Date;
 /**
  * The class Log aspect.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 @Aspect
@@ -121,7 +121,7 @@ public class LogAspect {
 
 			getControllerMethodDescription(relog, operationLogDto, result, joinPoint);
 			threadLocal.remove();
-			taskExecutor.execute(() -> this.restTemplate.postForObject("http://paascloud-provider-uac/uac/auth/saveLog", operationLogDto, Integer.class));
+			taskExecutor.execute(() -> this.restTemplate.postForObject("http://shopping-provider-uac/uac/auth/saveLog", operationLogDto, Integer.class));
 		} catch (Exception ex) {
 			log.error("获取注解类出现异常={}", ex.getMessage(), ex);
 		}

@@ -1,6 +1,6 @@
 package  com.shopping.core.config;
 
-import  com.shopping.config.properties.PaascloudProperties;
+import  com.shopping.config.properties.ShoppingProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
@@ -18,7 +18,7 @@ import java.util.concurrent.Executor;
 /**
  * The class Async config.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Configuration
 @EnableAsync
@@ -26,18 +26,18 @@ import java.util.concurrent.Executor;
 public class AsyncTaskExecutorConfiguration implements AsyncConfigurer {
 	private final Logger log = LoggerFactory.getLogger(getClass());
 	@Resource
-	private PaascloudProperties paascloudProperties;
+	private ShoppingProperties shoppingProperties;
 
 	@Override
 	@Bean(name = "taskExecutor")
 	public Executor getAsyncExecutor() {
 		log.debug("Creating Async Task Executor");
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-		executor.setCorePoolSize(paascloudProperties.getTask().getCorePoolSize());
-		executor.setMaxPoolSize(paascloudProperties.getTask().getMaxPoolSize());
-		executor.setQueueCapacity(paascloudProperties.getTask().getQueueCapacity());
-		executor.setKeepAliveSeconds(paascloudProperties.getTask().getKeepAliveSeconds());
-		executor.setThreadNamePrefix(paascloudProperties.getTask().getThreadNamePrefix());
+		executor.setCorePoolSize(shoppingProperties.getTask().getCorePoolSize());
+		executor.setMaxPoolSize(shoppingProperties.getTask().getMaxPoolSize());
+		executor.setQueueCapacity(shoppingProperties.getTask().getQueueCapacity());
+		executor.setKeepAliveSeconds(shoppingProperties.getTask().getKeepAliveSeconds());
+		executor.setThreadNamePrefix(shoppingProperties.getTask().getThreadNamePrefix());
 		return new ExceptionHandlingAsyncTaskExecutor(executor);
 	}
 

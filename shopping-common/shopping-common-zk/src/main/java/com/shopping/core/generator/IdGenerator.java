@@ -3,7 +3,7 @@ package com.shopping.core.generator;
 /**
  * The interface Id generator.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 public interface IdGenerator {
 

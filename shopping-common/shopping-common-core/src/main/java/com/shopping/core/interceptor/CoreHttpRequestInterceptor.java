@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * The class Core http request interceptor.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 public class CoreHttpRequestInterceptor implements ClientHttpRequestInterceptor {

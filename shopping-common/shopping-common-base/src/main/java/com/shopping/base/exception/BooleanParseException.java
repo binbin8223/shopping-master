@@ -3,7 +3,7 @@ package com.shopping.base.exception;
 /**
  * The class Boolean parse exception.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class BooleanParseException extends RuntimeException {
 

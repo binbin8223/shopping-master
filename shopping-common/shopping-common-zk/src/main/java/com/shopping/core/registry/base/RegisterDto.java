@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * The class Register dto.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 @AllArgsConstructor

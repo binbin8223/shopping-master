@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * The class Date util.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class DateUtil {

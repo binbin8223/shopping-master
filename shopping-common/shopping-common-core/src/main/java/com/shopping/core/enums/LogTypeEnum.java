@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * The enum Log type enum.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public enum LogTypeEnum {
 	/**

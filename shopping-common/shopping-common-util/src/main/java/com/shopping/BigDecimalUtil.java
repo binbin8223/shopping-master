@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 /**
  * The class Big decimal util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class BigDecimalUtil {

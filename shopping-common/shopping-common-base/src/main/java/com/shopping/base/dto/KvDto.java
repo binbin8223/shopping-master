@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * The class Kv dto.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Data
 public class KvDto<K, V> implements Serializable {

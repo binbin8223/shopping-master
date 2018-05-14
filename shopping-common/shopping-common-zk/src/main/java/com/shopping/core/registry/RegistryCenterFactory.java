@@ -5,7 +5,7 @@ import com.google.common.hash.HashCode;
 import com.google.common.hash.Hasher;
 import com.google.common.hash.Hashing;
 import com.shopping.config.properties.AliyunProperties;
-import com.shopping.config.properties.PaascloudProperties;
+import com.shopping.config.properties.ShoppingProperties;
 import com.shopping.config.properties.ZookeeperProperties;
 import  com.shopping.core.generator.IncrementIdGenerator;
 import  com.shopping.core.registry.base.CoordinatorRegistryCenter;
@@ -49,21 +49,21 @@ public final class RegistryCenterFactory {
 	/**
 	 * Startup.
 	 *
-	 * @param paascloudProperties the paascloud properties
+	 * @param shoppingProperties the shopping properties
 	 * @param host                the host
 	 * @param app                 the app
 	 */
-	public static void startup(PaascloudProperties paascloudProperties, String host, String app) {
-		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(paascloudProperties.getZk());
+	public static void startup(ShoppingProperties shoppingProperties, String host, String app) {
+		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(shoppingProperties.getZk());
 		RegisterDto dto = new RegisterDto(app, host, coordinatorRegistryCenter);
 		Long serviceId = new IncrementIdGenerator(dto).nextId();
 		IncrementIdGenerator.setServiceId(serviceId);
-		registerMq(paascloudProperties, host, app);
+		registerMq(shoppingProperties, host, app);
 	}
 
-	private static void registerMq(PaascloudProperties paascloudProperties, String host, String app) {
-		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(paascloudProperties.getZk());
-		AliyunProperties.RocketMqProperties rocketMq = paascloudProperties.getAliyun().getRocketMq();
+	private static void registerMq(ShoppingProperties shoppingProperties, String host, String app) {
+		CoordinatorRegistryCenter coordinatorRegistryCenter = createCoordinatorRegistryCenter(shoppingProperties.getZk());
+		AliyunProperties.RocketMqProperties rocketMq = shoppingProperties.getAliyun().getRocketMq();
 		String consumerGroup = rocketMq.isReliableMessageConsumer() ? rocketMq.getConsumerGroup() : null;
 		String namesrvAddr = rocketMq.getNamesrvAddr();
 		String producerGroup = rocketMq.isReliableMessageProducer() ? rocketMq.getProducerGroup() : null;

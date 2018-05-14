@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * The class Qiniu oss properties.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Data
 public class QiniuProperties {

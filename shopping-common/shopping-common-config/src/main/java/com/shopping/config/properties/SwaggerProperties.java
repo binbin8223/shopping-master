@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * The class Async task properties.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 public class SwaggerProperties {
@@ -22,7 +22,7 @@ public class SwaggerProperties {
 
 	private String contactName = "无痕";
 
-	private String contactUrl = "http://paascloud.net";
+	private String contactUrl = "http://shopping.net";
 
-	private String contactEmail = "paascloud.net@gmail.com";
+	private String contactEmail = "shopping.net@gmail.com";
 }

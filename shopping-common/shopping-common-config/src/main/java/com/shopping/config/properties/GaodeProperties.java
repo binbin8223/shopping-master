@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * The class Gaode properties.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 public class GaodeProperties {

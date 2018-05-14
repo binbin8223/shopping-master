@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * 将字符串转为Long
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 public class LongJsonDeserializer extends JsonDeserializer<Long> {

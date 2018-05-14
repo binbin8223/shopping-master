@@ -4,7 +4,7 @@ package com.shopping.exception;
 /**
  * The class Http aes exception.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 public class HttpAesException extends IllegalArgumentException {
 	private static final long serialVersionUID = -2489600753056921095L;

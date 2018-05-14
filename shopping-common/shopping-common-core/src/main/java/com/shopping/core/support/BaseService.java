@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @param <T> the type parameter
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public abstract class BaseService<T> implements IService<T> {
 

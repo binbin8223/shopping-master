@@ -6,13 +6,13 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * The class Paascloud properties.
+ * The class shopping properties.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 @ConfigurationProperties(prefix = GlobalConstant.ROOT_PREFIX)
-public class PaascloudProperties {
+public class ShoppingProperties {
 	private ReliableMessageProperties message = new ReliableMessageProperties();
 	private AliyunProperties aliyun = new AliyunProperties();
 	private AsyncTaskProperties task = new AsyncTaskProperties();

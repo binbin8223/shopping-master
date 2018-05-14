@@ -13,7 +13,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 /**
  * 加载LWR规则.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Configuration
 public class CoreConfiguration {

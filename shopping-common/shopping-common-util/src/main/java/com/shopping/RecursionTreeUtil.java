@@ -11,7 +11,7 @@ import java.util.Objects;
 /**
  * The class Recursion tree util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class RecursionTreeUtil {

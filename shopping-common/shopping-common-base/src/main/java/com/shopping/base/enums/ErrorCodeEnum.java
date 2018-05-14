@@ -4,7 +4,7 @@ package com.shopping.base.enums;
 /**
  * The class Error code enum.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 public enum ErrorCodeEnum {
 	/**

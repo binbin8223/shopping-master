@@ -1,6 +1,6 @@
 package  com.shopping.core.config;
 
-import  com.shopping.config.properties.PaascloudProperties;
+import  com.shopping.config.properties.ShoppingProperties;
 import  com.shopping.config.properties.SwaggerProperties;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
@@ -18,12 +18,12 @@ import javax.annotation.Resource;
 /**
  * The class Swagger configuration.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @EnableSwagger2
 public class SwaggerConfiguration {
 	@Resource
-	private PaascloudProperties paascloudProperties;
+	private ShoppingProperties shoppingProperties;
 
 	/**
 	 * Reservation api docket.
@@ -41,7 +41,7 @@ public class SwaggerConfiguration {
 	}
 
 	private ApiInfo apiInfo() {
-		SwaggerProperties swagger = paascloudProperties.getSwagger();
+		SwaggerProperties swagger = shoppingProperties.getSwagger();
 		return new ApiInfoBuilder()
 				.title(swagger.getTitle())
 				.description(swagger.getDescription())

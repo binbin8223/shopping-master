@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * The class Thread local map.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ThreadLocalMap {

@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * The class Wrap mapper.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class WrapMapper {
 

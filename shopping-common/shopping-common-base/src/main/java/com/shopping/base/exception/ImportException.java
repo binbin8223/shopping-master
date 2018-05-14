@@ -4,7 +4,7 @@ package com.shopping.base.exception;
 /**
  * The class Import exception.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class ImportException extends RuntimeException {
 

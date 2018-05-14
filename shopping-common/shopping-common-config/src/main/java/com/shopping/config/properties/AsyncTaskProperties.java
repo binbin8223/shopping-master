@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * The class Async task properties.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 public class AsyncTaskProperties {
@@ -18,5 +18,5 @@ public class AsyncTaskProperties {
 
 	private int keepAliveSeconds = 3000;
 
-	private String threadNamePrefix = "paascloud-task-executor-";
+	private String threadNamePrefix = "shopping-task-executor-";
 }

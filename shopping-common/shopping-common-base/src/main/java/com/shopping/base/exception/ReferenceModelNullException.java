@@ -3,7 +3,7 @@ package com.shopping.base.exception;
 /**
  * The class Reference model null exception.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class ReferenceModelNullException extends RuntimeException {
 	private static final long serialVersionUID = -318154770875589045L;

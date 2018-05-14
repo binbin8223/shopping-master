@@ -25,12 +25,12 @@ import java.lang.reflect.Method;
 /**
  * The class Token interceptor.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Slf4j
 public class TokenInterceptor implements HandlerInterceptor {
 
-	@Value("${paascloud.oauth2.jwtSigningKey}")
+	@Value("${shopping.oauth2.jwtSigningKey}")
 	private String jwtSigningKey;
 
 	@Resource

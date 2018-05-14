@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * The class Job core properties.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Data
 public class JobProperties {

@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * The class Renew filter.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @Component
 @Slf4j

@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 /**
  * The class Page wrapper.
  *
- * @param <T> the type parameter @author paascloud.net@gmail.com
+ * @param <T> the type parameter @author shopping.net@gmail.com
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

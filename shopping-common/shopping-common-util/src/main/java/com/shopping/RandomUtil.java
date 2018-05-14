@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * The class Random util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class RandomUtil {

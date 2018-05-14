@@ -15,7 +15,7 @@ import java.security.MessageDigest;
 /**
  * The class Http aes util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

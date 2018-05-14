@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * The class Public util.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class PublicUtil {

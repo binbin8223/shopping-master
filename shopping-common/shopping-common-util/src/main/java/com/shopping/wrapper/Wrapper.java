@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * The class Wrapper.
  *
- * @param <T> the type parameter @author paascloud.net@gmail.com
+ * @param <T> the type parameter @author shopping.net@gmail.com
  */
 @Data
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)

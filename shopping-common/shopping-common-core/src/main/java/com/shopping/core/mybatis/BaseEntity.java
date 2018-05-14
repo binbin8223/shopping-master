@@ -13,7 +13,7 @@ import java.util.Date;
 /**
  * The class Base entity.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Data
 public class BaseEntity implements Serializable {

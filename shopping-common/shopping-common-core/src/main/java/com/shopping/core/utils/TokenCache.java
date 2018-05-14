@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * The class Token cache.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

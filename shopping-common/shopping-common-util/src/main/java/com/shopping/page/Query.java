@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * The class Query.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 @Data
 public class Query implements Serializable {

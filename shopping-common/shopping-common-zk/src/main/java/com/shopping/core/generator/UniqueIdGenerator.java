@@ -3,7 +3,7 @@ package com.shopping.core.generator;
 /**
  * 分布式唯一ID生成器
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class UniqueIdGenerator implements IdGenerator {
 

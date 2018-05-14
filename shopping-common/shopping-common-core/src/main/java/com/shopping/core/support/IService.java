@@ -9,9 +9,9 @@ import java.util.List;
 /**
  * 通用接口
  *
- * @param <T> the type parameter @author paascloud.net@gmail.com
+ * @param <T> the type parameter @author shopping.net@gmail.com
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public interface IService<T> {
 	/**

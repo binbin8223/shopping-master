@@ -3,7 +3,7 @@ package com.shopping.base.constant;
 /**
  * The class Global constant.
  *
- * @author paascloud.net@gmail.com
+ * @author shopping.net@gmail.com
  */
 public class GlobalConstant {
 
@@ -30,16 +30,16 @@ public class GlobalConstant {
 	public static final String PRO_PROFILE = "pro";
 	public static final int TWO_INT = 2;
 	public static final int M_SIZE = 1024;
-	public static final String ROOT_PREFIX = "paascloud";
+	public static final String ROOT_PREFIX = "shopping";
 
 	public static final int EXCEPTION_CAUSE_MAX_LENGTH = 2048;
 	public static final int EXCEPTION_MESSAGE_MAX_LENGTH = 2048;
 
-	public static final String ZK_REGISTRY_SERVICE_ROOT_PATH = "/paascloud/registry/service";
-	public static final String ZK_REGISTRY_ID_ROOT_PATH = "/paascloud/registry/id";
-	public static final String ZK_REGISTRY_PRODUCER_ROOT_PATH = "/paascloud/registry/producer";
-	public static final String ZK_REGISTRY_CONSUMER_ROOT_PATH = "/paascloud/registry/consumer";
-	public static final String ZK_REGISTRY_SEQ = "/paascloud/seq";
+	public static final String ZK_REGISTRY_SERVICE_ROOT_PATH = "/shopping/registry/service";
+	public static final String ZK_REGISTRY_ID_ROOT_PATH = "/shopping/registry/id";
+	public static final String ZK_REGISTRY_PRODUCER_ROOT_PATH = "/shopping/registry/producer";
+	public static final String ZK_REGISTRY_CONSUMER_ROOT_PATH = "/shopping/registry/consumer";
+	public static final String ZK_REGISTRY_SEQ = "/shopping/seq";
 
 	public interface Number {
 		int THOUSAND_INT = 1000;
@@ -100,7 +100,7 @@ public class GlobalConstant {
 		/**
 		 * The constant DEFAULT_FILE_PATH.
 		 */
-		public static final String DEFAULT_FILE_PATH = "paascloud/file/";
+		public static final String DEFAULT_FILE_PATH = "shopping/file/";
 
 		/**
 		 * redis key default expire = 1MINUTES
@@ -111,7 +111,7 @@ public class GlobalConstant {
 	/**
 	 * The class Symbol.
 	 *
-	 * @author paascloud.net@gmail.com
+	 * @author shopping.net@gmail.com
 	 */
 	public static final class Symbol {
 		private Symbol() {
@@ -148,7 +148,7 @@ public class GlobalConstant {
 	/**
 	 * The class Oss.
 	 *
-	 * @author paascloud.net@gmail.com
+	 * @author shopping.net@gmail.com
 	 */
 	public static final class Oss {
 		private Oss() {
@@ -182,7 +182,7 @@ public class GlobalConstant {
 	/**
 	 * The enum Payment type enum.
 	 *
-	 * @author paascloud.net@gmail.com
+	 * @author shopping.net@gmail.com
 	 */
 	public enum PaymentTypeEnum {
 		/**

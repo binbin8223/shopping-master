@@ -7,7 +7,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 /**
  * The class Redis session configuration.
  *
- * @author paascloud.net @gmail.com
+ * @author shopping.net @gmail.com
  */
 @EnableRedisHttpSession
 public class RedisSessionConfiguration {
